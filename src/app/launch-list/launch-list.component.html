@@ -32,3 +32,9 @@
     </section>
   </main>
 </ng-container>
+<ng-container *ngIf="missions$ | async as missions">
+<div class="sina" *ngFor="let mission of missions">
+{{mission.manufacturers}}
+</div>
+</ng-container>
+

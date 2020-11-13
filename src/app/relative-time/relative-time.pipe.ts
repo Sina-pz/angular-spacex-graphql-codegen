@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
+// The pipe takes in the UTC time and returns a formatted string
 
 const milliSecondsInDay = 1000 * 3600 * 24;
-
 // Cast as any because typescript typing haven't updated yet
 const rtf = new (Intl as any).RelativeTimeFormat('en');
 

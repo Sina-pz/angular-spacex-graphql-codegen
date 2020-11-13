@@ -14,3 +14,12 @@ query pastLaunchesList($limit: Int!) {
     launch_date_utc
   }
 }
+
+query missionsList($limit: Int!) {
+  missions {
+    manufacturers
+    name
+  }
+  
+
+}

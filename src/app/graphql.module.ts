@@ -22,3 +22,4 @@ export function createApollo(httpLink: HttpLink) {
   ],
 })
 export class GraphQLModule {}
+// if we use ng add apollo-angular, this module is created
